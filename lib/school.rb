@@ -3,10 +3,9 @@
 class School 
   attr_accessor name
   @@roster = {}
-  
-  def initialize(name)
+  def initialize(name, roster)
     @name = name 
-    @@roster < self
+    @@roster < self.name
   end 
   
   
