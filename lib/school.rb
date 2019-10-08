@@ -2,8 +2,8 @@
 
 class School 
   
-  def initialize(school)
-    #@model = model
+  def initialize(roster)
+    @roster = roster
     roster = {}
   end 
   
