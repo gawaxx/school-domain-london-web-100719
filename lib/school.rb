@@ -2,9 +2,9 @@
 
 class School 
   
-  def initialize(roster)
+  def initialize
     #@model = model
-    roster = {}
+    @roster = {}
   end 
   
   
