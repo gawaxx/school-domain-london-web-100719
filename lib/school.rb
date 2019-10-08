@@ -16,13 +16,7 @@ class School
   end 
   
   def grade(grade)
-    thestudents = []
-    roster.each do |key, value|
-      if key == 9
-        thestudents.push(value)
-      end
-    end 
-    return thestudents
+    @roster[grade]
   end 
   
   def sort 
