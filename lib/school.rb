@@ -1,7 +1,7 @@
 # code here!
 
 class School 
-  attr_accessor :roster.hash
+  
   def initialize(roster)
     @roster = roster
   end 
