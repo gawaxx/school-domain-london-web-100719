@@ -20,8 +20,9 @@ class School
   end 
   
   def sort 
+    sorted = {}
     @roster.each do |key, value|
-    sorted[key] = student_name_sort
+      sorted[key] = value.sort
     end   
     sorted
   end 
