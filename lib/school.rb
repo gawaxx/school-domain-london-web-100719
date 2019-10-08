@@ -20,7 +20,7 @@ class School
   end 
   
   def sort 
-    roster.each do |key, value|
+    @roster.each do |key, value|
       return roster[key].sort
     end   
   end 
