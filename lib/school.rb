@@ -3,7 +3,7 @@
 class School 
   
   def initialize(roster)
-    @roster = (roster=new.Hash)
+    @roster = {}
   end 
   
   
