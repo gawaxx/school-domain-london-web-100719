@@ -1,9 +1,9 @@
 # code here!
 
 class School 
-  roster = {}
   def initialize(model)
     @model = model
+    roster = {}
   end 
   
   def add_student(name, grade)
