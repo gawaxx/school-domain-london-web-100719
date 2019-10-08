@@ -1,10 +1,9 @@
 # code here!
 
 class School 
-  attr_accessor name
 
   def initialize(name, roster)
-    @name = name 
+    attr_accessor name
     @roster = {}
   end 
   
