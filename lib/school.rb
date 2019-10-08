@@ -23,7 +23,7 @@ class School
     @roster.each do |key, value|
     sorted[grade] = student_name_sort
     end   
-    sorted
+    return sorted
   end 
   
 end   
