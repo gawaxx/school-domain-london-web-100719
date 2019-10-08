@@ -2,8 +2,8 @@
 
 class School 
   
-  def initialize(model)
-    @model = model
+  def initialize()
+    #@model = model
     roster = new.Hash
   end 
   
