@@ -2,9 +2,9 @@
 
 class School 
   
-  roster = {}
   def initialize(model)
     @model = model
+    roster = new.Hash
   end 
   
   
