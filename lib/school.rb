@@ -31,7 +31,6 @@ class School
     roster.each do |key, value|
       return roster[key].sort
     end   
-      
   end 
   
 end   
