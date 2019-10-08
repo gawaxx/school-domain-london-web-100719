@@ -1,8 +1,9 @@
 # code here!
 
 class School 
-  
-  def initialize(roster)
+  attr_accessor :name
+  def initialize(name, roster)
+    @name = name 
     @roster = roster
   end 
   
