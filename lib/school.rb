@@ -1,12 +1,10 @@
 # code here!
 
 class School 
-  
+  roster = {}
   def initialize(model)
     @model = model
   end 
-  
-  roster = {}
   
   def add_student(name, grade)
     if roster.incude?[grade]
