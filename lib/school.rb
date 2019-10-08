@@ -4,7 +4,7 @@ class School
   
   def initialize()
     #@model = model
-    roster = new.Hash
+    roster = {}
   end 
   
   
