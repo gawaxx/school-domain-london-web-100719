@@ -4,7 +4,7 @@ class School
   
   def initialize(school)
     #@model = model
-    @roster = {}
+    roster = {}
   end 
   
   
